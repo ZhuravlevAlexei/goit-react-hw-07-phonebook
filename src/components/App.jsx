@@ -17,9 +17,11 @@ const App = () => {
     return contact.name.toLowerCase().includes(loFilter);
   });
 
+  //<h3>OLD VERSION 2023</h3>;
   return (
     <div className={css.phonebookArea}>
       <Toaster />
+
       <h3 className={css.mainTitle}>Phonebook</h3>
       <ContactForm />
       <h3>Contacts</h3>
